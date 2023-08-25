@@ -10,4 +10,4 @@ Click the "Start" button, and your tomato will change from green to red, gradual
 
 1. Create a new code note with JS Frontend type. Then copy and paste tomato.js into the note.
 2. Be sure to add the #widget attribute to the note.
-3. Add the #tomato attribute to your note. (You may have to switch notes afterward for the preview to appear.)
+3. Add the #tomato attribute to your note. (You may have to switch notes afterward for the tomato to appear.)
