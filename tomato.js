@@ -92,7 +92,7 @@ class TomatoClockWidget extends api.NoteContextAwareWidget {
     }
 
     async refreshWithNote(note) {
-        if (!note.hasLabel('ceui')) {
+        if (!note.hasLabel('tomato')) {
             this.toggleInt(false);
             return;
         }
