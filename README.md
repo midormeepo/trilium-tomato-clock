@@ -17,12 +17,13 @@ Click the "Start" button, and your tomato will change from green to red, gradual
 2. Be sure to add the #widget attribute to the note.
 3. Add the #tomato attribute to your note. (You may have to switch notes afterward for the tomato to appear.)
    
-***
+---  
+
 # trilium-番茄钟
 
 ## 预览
 ![PIC2023-08-25_15 10 57](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/0e58f3ff-8754-4d1d-9ba8-5d978a9fb7d7)
-一个番茄工作法组件.
+简单的一个番茄工作法组件。
 
 点击start按钮，开始见证番茄由绿变红逐渐成熟~  
 ![PIC2023-08-25_17 28 53](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/4b338d06-c9a3-476e-8cdc-71d258bbe5b0)  
