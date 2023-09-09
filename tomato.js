@@ -1,6 +1,12 @@
 /*
 * This widget allows you to use Pomodoro Technique.
 */
+const seed=`
+<svg t="1693879264402" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2623" width="35" height="35"><path d="M938.666667 298.666667v106.666666a277.333333 277.333333 0 0 1-277.333334 277.333334H554.666667v213.333333h-85.333334v-298.666667l0.810667-42.666666A277.333333 277.333333 0 0 1 746.666667 298.666667H938.666667zM256 128a298.837333 298.837333 0 0 1 283.434667 204.202667A319.018667 319.018667 0 0 0 427.349333 554.666667H384a298.666667 298.666667 0 0 1-298.666667-298.666667V128h170.666667z" p-id="2624" fill="#4caf50"></path><title>start</title></svg>
+`
+const stop=`
+<svg t="1693879760128" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32651" width="32" height="32"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m234.8 736.5L223.5 277.2c16-19.7 34-37.7 53.7-53.7l523.3 523.3c-16 19.6-34 37.7-53.7 53.7z" fill="#f04c0b" p-id="32652"></path><title>stop</title></svg>
+`
 const svgTomato = `
 <svg t="1692927733034" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2592" width="40" height="40">
 <g id="tomatoisfruit" class = "tomato_color">
@@ -11,10 +17,10 @@ const svgTomato = `
 </svg>
 `;
 const TPL = `<div class="tpl">
+    <div class="seed">${seed}</div>
     <div class="tomato">${svgTomato}</div>
     <div id="timer" class="timer">25:00</div>
-    <button class="start-button">start</button>
-    <button class="stop-button">stop</button>
+    <div class="stop">${stop}</div>
 </div>`;
 
 var customCSS = `
@@ -48,6 +54,20 @@ var customCSS = `
     margin: 0px 30px 10px 10px;
 }
 
+.seed {
+    width: 25px;
+    height: 25px;
+    margin: 0px 30px 10px 10px;
+    cursor:pointer;
+}
+
+.stop {
+    width: 25px;
+    height: 25px;
+    margin: 0px 30px 10px 10px;
+    cursor:pointer;
+}
+
 .start-button {
     background-color: #4CAF50;
     color: white;
@@ -73,6 +93,7 @@ class TomatoClockWidget extends api.NoteContextAwareWidget {
     constructor() {
         super();
         this.stopsign = false;
+        this.startsign = false;
         this.remainingTime = 1500; // 25*60
     }
 
@@ -83,16 +104,17 @@ class TomatoClockWidget extends api.NoteContextAwareWidget {
         this.$widget = $(TPL);
         this.cssBlock(customCSS);
         this.$tomato = this.$widget.find('.tomato');
-        this.$startButton = this.$widget.find('.start-button');
-        this.$startButton.on('click', () => { this.startCountdown() });
-        this.$stopButton = this.$widget.find('.stop-button');
-        this.$stopButton.on('click', () => { this.stopsign=true; });
+        this.$startButton = this.$widget.find('.seed');
+        this.$startButton.on('click', () => { 
+            this.startCountdown()});
+        this.$stopButton = this.$widget.find('.stop');
+        this.$stopButton.on('click', () => { this.stopsign=true;this.startsign = false; });
 
         return this.$widget;
     }
 
     async refreshWithNote(note) {
-        if (!note.hasLabel('tomato')) {
+        if (!note.hasLabel('ceui')) {
             this.toggleInt(false);
             return;
         }
@@ -120,9 +142,12 @@ class TomatoClockWidget extends api.NoteContextAwareWidget {
     }
 
     startCountdown() {
+        if(this.startsign){
+            return false
+        }
+        this.startsign = true;
         document.documentElement.style.setProperty('--maincolor', '#00ff00');
         this.stopsign=false;
-
         this.updateTimerDisplay();
         const countdownInterval = setInterval(() => {
             if(this.stopsign){
