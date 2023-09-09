@@ -161,6 +161,8 @@ class TomatoClockWidget extends api.NoteContextAwareWidget {
             } else {
                 stoptomato()
                 this.remainingTime = 1500;
+                this.stopsign = false;
+                this.startsign = false;
                 return;
             }
             function stoptomato() {
