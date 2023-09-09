@@ -1,18 +1,24 @@
 # trilium-tomato-clock / trilium番茄钟
 
 ## Preview / 预览
-![PIC2023-08-25_15 10 57](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/0e58f3ff-8754-4d1d-9ba8-5d978a9fb7d7)
+![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/2ad14af6-03bd-4db3-899b-e40a4695f8f9)
+
 A widget allows you to use Pomodoro Technique.  
 简单的一个番茄工作法组件。  
 
 ## Usage / 用法  
 Click the "Start" button, and your tomato will change from green to red, gradually ripening!   
 点击start按钮，开始见证番茄由绿变红逐渐成熟~  
-![PIC2023-08-25_17 28 53](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/4b338d06-c9a3-476e-8cdc-71d258bbe5b0)  
+![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/6d5d2d76-2e64-48c9-a21a-bd503940627a)
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔽  
-![PIC2023-08-25_17 28 02](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/ab916378-4978-4eaa-ab89-c68c3228785c)  
+![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/91081642-4587-4525-8d97-19e477e53b21)
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔽  
-![PIC2023-08-25_17 28 31](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/41fa6256-b269-4656-8aaa-9240f5eb7604)  
+![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/c0b3b562-4e5c-4d0b-94ff-03cdc0166dcd)
+
+ 
 
 ## Installation / 安装
 
