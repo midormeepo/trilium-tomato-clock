@@ -22,12 +22,12 @@ Click the "Start" button, and your tomato will change from green to red, gradual
 
 ## Installation / 安装
 
-1. Create a new code note with JS Frontend type. Then copy and paste tomato.js into the note.  
-2. Be sure to add the #widget attribute to the note.
+1. Download Tomato.zip compressed file from the releases.
+2. Import into note，choose the compressed file and uncheck "safe import."
 3. Add the #tomato attribute to your note. (You may have to switch notes afterward for the tomato to appear.)
 ---
-1. 创建新的 JS Frontend 类型笔记，复制 tomato.js 代码填入；
-2. 为笔记添加 #widget 属性；
+1. 从发行版中下载Tomato.zip压缩包；
+2. 导入压缩包到笔记，并取消勾选“安全导入”；
 3. 在需要的笔记中添加 #tomato 属性 (需要切换或刷新笔记显示番茄钟)。
 
 ## Maintenance Plan / 维护计划
