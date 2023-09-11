@@ -22,16 +22,13 @@ Click the "Start" button, and your tomato will change from green to red, gradual
 
 ## Installation / 安装
 
-1. Download Tomato.zip compressed file from the releases.
+1. Download [Tomato.zip](https://github.com/midormeepo/trilium-tomato-clock/releases) compressed file from the releases.
 2. Import into note，choose the compressed file and uncheck "safe import."
-3. Add the #tomato attribute to your note. (You may have to switch notes afterward for the tomato to appear.)
+3. Add the ```#tomato``` attribute to your note. (You may have to switch notes afterward for the tomato to appear.)
 ---
-1. 从发行版中下载Tomato.zip压缩包；
-2. 导入压缩包到笔记，并取消勾选“安全导入”；
-3. 在需要的笔记中添加 #tomato 属性 (需要切换或刷新笔记显示番茄钟)。
+1. 从发行版中下载[Tomato.zip](https://github.com/midormeepo/trilium-tomato-clock/releases)压缩包；
+2. 导入到笔记，选择下载好的压缩包并取消勾选“安全导入”；
+3. 在需要的笔记中添加 ```#tomato``` 属性 (需要切换或刷新笔记显示番茄钟)。
 
-## Maintenance Plan / 维护计划
-1. Add Records
----
-1. 添加记录
+## Enjoy~
 
