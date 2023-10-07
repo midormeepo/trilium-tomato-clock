@@ -1,25 +1,34 @@
 # trilium-tomato-clock / trilium番茄钟
 
 ## Preview / 预览
-![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/2ad14af6-03bd-4db3-899b-e40a4695f8f9)
-
+<div  align="center">    
+	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/2ad14af6-03bd-4db3-899b-e40a4695f8f9" width = 900 />
+</div>
 A widget allows you to use Pomodoro Technique.  
 简单的一个番茄工作法组件。  
 
 ## Usage / 用法  
 Click the "Start" button, and your tomato will change from green to red, gradually ripening!   
 点击start按钮，开始见证番茄由绿变红逐渐成熟~  
-![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/6d5d2d76-2e64-48c9-a21a-bd503940627a)
+
+<div  align="center">    
+	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/6d5d2d76-2e64-48c9-a21a-bd503940627a" width = 300 />
+</div>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔽  
-![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/91081642-4587-4525-8d97-19e477e53b21)
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔽  
-![image](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/c0b3b562-4e5c-4d0b-94ff-03cdc0166dcd)
+<div  align="center">    
+	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/91081642-4587-4525-8d97-19e477e53b21" width = 300 />
+</div>
+
+<div  align="center">    
+	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/c0b3b562-4e5c-4d0b-94ff-03cdc0166dcd" width = 300 />
+</div>
 
 ## More Functions / 更多功能
-![Snipaste_2023-10-07_21-40-58](https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/176c247c-d847-4cb1-a846-cb41bfe1be5e)
+
+<div  align="center">    
+	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/176c247c-d847-4cb1-a846-cb41bfe1be5e" width = 800 />
+</div>
 Completing one Pomodoro will be recorded once in the label ```#tomatorecord```.   
 完成一个番茄钟就会在标签```#tomatorecord```中记录一次。   
 
