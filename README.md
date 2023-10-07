@@ -29,7 +29,8 @@ Click the "Start" button, and your tomato will change from green to red, gradual
 <div  align="center">    
 	<img src="https://github.com/midormeepo/trilium-tomato-clock/assets/43932152/176c247c-d847-4cb1-a846-cb41bfe1be5e" width = 800 />
 </div>
-Completing one Pomodoro will be recorded once in the label ```#tomatorecord```.   
+
+Completing one Pomodoro will be recorded once in the label ```#tomatorecord```.  
 完成一个番茄钟就会在标签```#tomatorecord```中记录一次。   
 
 ### minor bug / 注意小问题
